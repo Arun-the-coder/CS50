@@ -19,6 +19,10 @@ int main()
 	 k[i]=k[p];
 	 c[j]=k[i]-65;
 	 a[h]=a[h]+c[j];
+	 if(a[h]>90)
+	 {
+	     a[h]=65-(a[h]-90);
+	 }
 	 cout<<a[h];
  }
  return 0;
