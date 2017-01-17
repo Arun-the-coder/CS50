@@ -21,7 +21,7 @@ int main()
 	 a[h]=a[h]+c[j];
 	 if(a[h]>90)
 	 {
-	     a[h]=65+(a[h]-90);
+	     a[h]=64+(a[h]-90);
 	 }
 	 cout<<a[h];
  }
